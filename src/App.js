@@ -50,8 +50,8 @@ function App() {
         <Movies
           key={index}
           name={movie.name}
-          year={movie.year}
-          rating={movie.rating}
+          year={`Released In: ${movie.year}`}
+          rating={`Rated ${movie.rating}`}
           alt={`Poster for ${movie.name}`}
           src={movie.image}
           width="200" // Set the desired width

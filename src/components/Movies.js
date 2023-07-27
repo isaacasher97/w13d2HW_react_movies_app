@@ -2,7 +2,7 @@ const Movies = ({name, year, rating, alt, src, width, height}) => {
   return (
   <>
       <h2>{name}</h2>
-      <img 
+      <img
           alt={alt}
           src={src}
           width={width}
